@@ -1,0 +1,28 @@
+{
+  "participants": [
+    {
+      "country": "Suomi",
+      "number": "01",
+      "flag": "finland",
+      "rating": ""
+    },
+    {
+      "country": "Ruotsi",
+      "number": "02",
+      "flag": "sweden",
+      "rating": ""
+    },
+    {
+      "country": "Norja",
+      "number": "03",
+      "flag": "norway",
+      "rating": ""
+    },
+    {
+      "country": "UK",
+      "number": "04",
+      "flag": "united-kingdom",
+      "rating": ""
+    }
+  ]
+}

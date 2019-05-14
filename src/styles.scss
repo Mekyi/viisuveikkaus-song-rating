@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+body, html {
+  height: 100%;
+  margin: 0 auto;
+  background: grey;
+}
+
+.mat-card {
+  margin: 5px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
