@@ -22,4 +22,8 @@ export class SongRatingComponent implements OnInit {
             .subscribe(data => this.participants = data['participants']);
   }
 
+  print() {
+    this.participantService.printRatings();
+  }
+
 }

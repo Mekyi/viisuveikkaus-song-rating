@@ -1,4 +1,7 @@
-<app-song-rating></app-song-rating>
-
+<mat-toolbar color="primary">Viisuveikkaus 2019</mat-toolbar>
+<mat-tab-group mat-stretch-tabs>
+    <mat-tab label="Arvostelu"> <app-song-rating></app-song-rating> </mat-tab>
+    <mat-tab label="Arviot"> <app-rated-songs></app-rated-songs> </mat-tab>
+</mat-tab-group>
 
 <router-outlet></router-outlet>

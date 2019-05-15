@@ -1,0 +1,17 @@
+<mat-card>
+  <div fxLayout="row" fxLayoutAlign="start center" >
+    <div mat-card-avatar class="number">{{ participant.number }}</div> 
+    <div><img src="./assets/flags/{{participant.flag}}-flag-icon-32.png"></div>
+    <div>{{ participant.country | uppercase}}</div>
+    <span class="spacer"></span> 
+    <mat-chip-list>
+      <mat-chip [matMenuTriggerFor]="menu">{{ participant.rating }} <mat-icon>star_rate</mat-icon></mat-chip>
+    </mat-chip-list>
+    <!-- <button mat-raised-button color="accent">Rate <mat-icon>stars</mat-icon></button> -->
+    <mat-menu #menu="matMenu" class="rate-menu">
+        <button mat-menu-item *ngFor="let grade of grades" (click)="rate(grade)">
+          <div class="menu-item">{{ grade }} <mat-icon>star_rate</mat-icon></div>
+        </button>
+    </mat-menu>
+  </div>
+</mat-card>

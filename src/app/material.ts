@@ -12,6 +12,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatChipsModule } from '@angular/material/chips';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   imports: [
@@ -25,7 +27,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatCardModule,
     MatTableModule,
     MatDividerModule,
-    MatDialogModule
+    MatDialogModule,
+    MatChipsModule,
+    MatTabsModule
   ],
   exports: [
     MatButtonModule,
@@ -37,7 +41,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatMenuModule,
     MatCardModule,
     MatTableModule,
-    MatDialogModule
+    MatDialogModule,
+    MatChipsModule,
+    MatTabsModule
   ]
 })
 

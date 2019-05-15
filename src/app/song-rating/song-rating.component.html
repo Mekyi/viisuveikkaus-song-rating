@@ -1,13 +1,5 @@
-<mat-toolbar color="primary">Viisuveikkaus 2019</mat-toolbar>
-
 <div *ngFor="let participant of participants">
-  <mat-card>
-    <div fxLayout="row" fxLayoutAlign="start center" >
-      <div mat-card-avatar class="number">{{ participant.number }}</div> 
-      <div><img src="./assets/flags/{{participant.flag}}-flag-icon-32.png"></div>
-      <div>{{ participant.country }}</div>
-      <span class="spacer"></span> 
-      <button mat-raised-button color="accent">Rate <mat-icon>stars</mat-icon></button>
-    </div>
-  </mat-card>
+  <app-participant-card [participant] = participant></app-participant-card>
 </div>
+
+<button mat-raised-button color="accent" (click)="print()">Rate <mat-icon>stars</mat-icon></button>

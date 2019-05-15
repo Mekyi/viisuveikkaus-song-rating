@@ -8,11 +8,21 @@ import { catchError, map, tap } from 'rxjs/operators';
 })
 export class ParticipantService {
 
+  ratings: { [id: string]: Number; } = { };
+
   constructor(private http: HttpClient) { }
 
   getJson() {
     return this.http.get('./assets/data.json').pipe(
       map(res => res)
     );
+  }
+
+  addRating(key: string, value: number): void {
+    this.ratings[key] = value;
+  }
+
+  printRatings() {
+    console.log(this.ratings);
   }
 }

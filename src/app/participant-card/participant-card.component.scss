@@ -15,6 +15,23 @@ img {
   margin: 5px;
 }
 
-mat-chip-list {
+.mat-chip-list {
   margin-right: 5px;
+}
+
+.mat-chip {
+  font-size: 23px;
+}
+
+.menu-item {
+  text-align: right;
+  font-size: 20px;
+  .mat-icon {
+    padding-bottom: 5px;
+  }
+}
+
+.mat-icon {
+  padding-bottom: 2px;
+  vertical-align: middle;
 }
