@@ -1,0 +1,9 @@
+<mat-card>
+    <div fxLayout="row" fxLayoutAlign="start center" >
+        <div mat-card-avatar class="number">{{ ranking }}</div> 
+        <div><img src="./assets/flags/{{ countryInfo.flag }}-flag-icon-32.png"></div>
+        <div>{{ countryInfo.country | uppercase}}</div>
+        <span class="spacer"></span> 
+        {{ points }} <mat-icon>star</mat-icon>
+      </div>
+</mat-card>

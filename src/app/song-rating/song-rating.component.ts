@@ -20,6 +20,7 @@ export class SongRatingComponent implements OnInit {
   getParticipants(): void {
     this.participantService.getJson()
             .subscribe(data => this.participants = data['participants']);
+    this.participantService.setJson();
   }
 
   print() {

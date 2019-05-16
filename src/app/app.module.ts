@@ -13,13 +13,15 @@ import { ParticipantService } from './participant.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ParticipantCardComponent } from './participant-card/participant-card.component';
 import { RatedSongsComponent } from './rated-songs/rated-songs.component';
+import { RatingCardComponent } from './rating-card/rating-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SongRatingComponent,
     ParticipantCardComponent,
-    RatedSongsComponent
+    RatedSongsComponent,
+    RatingCardComponent
   ],
   imports: [
     BrowserModule,
