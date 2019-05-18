@@ -1,63 +1,159 @@
 {
   "participants": [
     {
-      "country": "Suomi",
+      "country": "Malta",
       "number": "01",
-      "flag": "finland",
+      "flag": "malta",
+      "rating": ""
+    },
+    {
+      "country": "Albania",
+      "number": "02",
+      "flag": "albania",
+      "rating": ""
+    },
+    {
+      "country": "Tsekki",
+      "number": "03",
+      "flag": "czech-republic",
+      "rating": ""
+    },
+    {
+      "country": "Saksa",
+      "number": "04",
+      "flag": "germany",
+      "rating": ""
+    },
+    {
+      "country": "Venäjä",
+      "number": "05",
+      "flag": "russia",
+      "rating": ""
+    },
+    {
+      "country": "Tanska",
+      "number": "06",
+      "flag": "denmark",
+      "rating": ""
+    },
+    {
+      "country": "San Marino",
+      "number": "07",
+      "flag": "san-marino",
+      "rating": ""
+    },
+    {
+      "country": "Pohjois-Makedonia",
+      "number": "08",
+      "flag": "macedonia",
       "rating": ""
     },
     {
       "country": "Ruotsi",
-      "number": "02",
+      "number": "09",
       "flag": "sweden",
       "rating": ""
     },
     {
+      "country": "Slovenia",
+      "number": "10",
+      "flag": "slovenia",
+      "rating": ""
+    },
+    {
+      "country": "Kypros",
+      "number": "11",
+      "flag": "cyprus",
+      "rating": ""
+    },
+    {
+      "country": "Alankomaat",
+      "number": "12",
+      "flag": "netherlands",
+      "rating": ""
+    },
+    {
+      "country": "Kreikka",
+      "number": "13",
+      "flag": "greece",
+      "rating": ""
+    },
+    {
+      "country": "Israel",
+      "number": "14",
+      "flag": "israel",
+      "rating": ""
+    },
+    {
       "country": "Norja",
-      "number": "03",
+      "number": "15",
       "flag": "norway",
       "rating": ""
     },
     {
       "country": "UK",
-      "number": "04",
+      "number": "16",
       "flag": "united-kingdom",
       "rating": ""
     },
     {
-      "country": "Kreikka",
-      "number": "05",
-      "flag": "greece",
+      "country": "Islanti",
+      "number": "17",
+      "flag": "iceland",
       "rating": ""
-    },{
-      "country": "Saksa",
-      "number": "06",
-      "flag": "germany",
+    },
+    {
+      "country": "Viro",
+      "number": "18",
+      "flag": "estonia",
       "rating": ""
-    },{
-      "country": "Tanska",
-      "number": "07",
-      "flag": "denmark",
+    },
+    {
+      "country": "Valko-Venäjä",
+      "number": "19",
+      "flag": "belarus",
       "rating": ""
-    },{
-      "country": "Itävalta",
-      "number": "08",
-      "flag": "austria",
+    },
+    {
+      "country": "Azerbaidžan",
+      "number": "20",
+      "flag": "azerbaijan",
       "rating": ""
-    },{
+    },
+    {
       "country": "Ranska",
-      "number": "09",
+      "number": "21",
       "flag": "france",
       "rating": ""
-    },{
-      "country": "Alankomaat",
-      "number": "10",
-      "flag": "netherlands",
+    },
+    {
+      "country": "Italia",
+      "number": "22",
+      "flag": "italy",
       "rating": ""
-    },{
-      "country": "San Marino",
-      "number": "11",
-      "flag": "san-marino",
+    },
+    {
+      "country": "Serbia",
+      "number": "23",
+      "flag": "serbia",
+      "rating": ""
+    },
+    {
+      "country": "Sveitsi",
+      "number": "24",
+      "flag": "switzerland",
+      "rating": ""
+    },
+    {
+      "country": "Australia",
+      "number": "25",
+      "flag": "australia",
+      "rating": ""
+    },
+    {
+      "country": "Espanja",
+      "number": "26",
+      "flag": "spain",
       "rating": ""
     }
   ]
